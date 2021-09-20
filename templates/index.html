@@ -15,17 +15,17 @@
         <h2>A sub heading</h2>
     </div>
     <div>Form goes here
-        <Form:post>
+        <Form action="/submit" method="POST" >
             <div>
                 <label for="">Name (can be anonymous)</label><br>
-                <input type="text" id="user_name">
+                <input type="text" name="name" id="user_name">
             </div>
             <div>
                 <label for="">Feedback<br></label>
-                <input type="text" name="" id="user_feedback" height="400" width="300">
+                <input type="text" name="feedback" id="user_feedback" height="400" width="300">
             </div>
             <div>
-                <input type="button" value="Submit" id="form_button">
+                <input type="submit" value="Submit" id="form_button">
             </div>
         </Form:post>
     </div>
